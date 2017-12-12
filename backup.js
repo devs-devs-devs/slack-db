@@ -8,5 +8,5 @@ const mysqldump = '/usr/bin/mysqldump';
 const dir = '/home/slack/slack-db';
 const sql = `${dir}/slack.sql`;
 
-es(`${mysqldump} --compact -u ${process.env.MYSQL_USER} -p${process.env.MYSQL_PASSWORD} --extended-insert=FALSE --databases trug > ${sql}`);
+es(`${mysqldump} --compact -u ${process.env.MYSQL_USER} -p${process.env.MYSQL_PASSWORD} --extended-insert=FALSE --databases slack > ${sql}`);
 es(`cd ${dir}; ${git} pull; ${git} add .; ${git} commit -m "[CRON] ${timestamp}"; ${git} push --quiet;`);
