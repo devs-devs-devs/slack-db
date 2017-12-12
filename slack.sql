@@ -17,7 +17,9 @@ CREATE TABLE `data` (
 CREATE TABLE `settings` (
   `key` varchar(32) NOT NULL DEFAULT '',
   `value` blob NOT NULL,
+  `title` blob,
   PRIMARY KEY (`key`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
-INSERT INTO `settings` VALUES ('saveInterval','\"10000\"');
+INSERT INTO `settings` VALUES ('updateChannelsInterval','\"300000\"','How often to request the channels list from the Slack API');
+INSERT INTO `settings` VALUES ('updateUsersInterval','\"300000\"','How often to request the users list from the Slack API');
