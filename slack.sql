@@ -4,10 +4,10 @@ CREATE DATABASE /*!32312 IF NOT EXISTS*/ `slack` /*!40100 DEFAULT CHARACTER SET 
 USE `slack`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
 /*!40101 SET character_set_client = utf8 */;
-CREATE TABLE `triggers` (
+CREATE TABLE `data` (
   `id` int(11) unsigned NOT NULL AUTO_INCREMENT,
-  `trigger` varchar(60) NOT NULL DEFAULT '',
-  `responses` blob NOT NULL,
+  `namespace` varchar(60) NOT NULL DEFAULT '',
+  `data` blob NOT NULL,
   `updated` date NOT NULL,
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
