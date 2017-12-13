@@ -22,6 +22,7 @@ CREATE TABLE `settings` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
 INSERT INTO `settings` VALUES ('triggerChanceToSpeak','\"5\"','Out of 100, the chance that the bot can auto reply to triggers automatically straight after the timer has been reset.');
+INSERT INTO `settings` VALUES ('triggerReplyInterval','\"60000\"','How much time has to elapse before the bot has a 100% chance of triggering');
 INSERT INTO `settings` VALUES ('updateChannelsInterval','\"300000\"','How often to request the channels list from the Slack API');
 INSERT INTO `settings` VALUES ('updateUsersInterval','\"300000\"','How often to request the users list from the Slack API');
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
