@@ -68,6 +68,10 @@ CREATE TABLE `triggers` (
   `added` datetime NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
   `user` varchar(32) NOT NULL DEFAULT '',
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB AUTO_INCREMENT=6 DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
 INSERT INTO `triggers` VALUES (1,'<@u87u6es12>','fuck off you mug','2017-12-13 14:53:14','U5TQU3WQ7');
+INSERT INTO `triggers` VALUES (2,'<@u87u6es12>','are you mugging me off in front of my friends?','2017-12-13 14:58:49','U5TQU3WQ7');
+INSERT INTO `triggers` VALUES (3,'<@u87u6es12>','oi lads who remembers that time lil funnel archived general, twat','2017-12-13 14:58:57','U5TQU3WQ7');
+INSERT INTO `triggers` VALUES (4,'kanken',':enrique: < ( _kanken is for girls and i am a thicccc girl :fidget:_ )','2017-12-13 14:59:33','U5TQU3WQ7');
+INSERT INTO `triggers` VALUES (5,'<@u5tpvs84e>','_did you mean, lil funnel?_','2017-12-13 14:59:47','U5TQU3WQ7');
