@@ -38,16 +38,6 @@ INSERT INTO `copypasta` VALUES (23,'Yo :wave: homies :man::skin-tone-6:‍:facto
 INSERT INTO `copypasta` VALUES (24,':joy::joy::joy::joy::joy::joy::joy::joy::joy::joy::joy::joy::joy::joy::joy:\n:joy::cool::cool::cool::cool::cool::cool::cool::cool::cool::cool::cool::cool::cool::joy:\n:joy::cool::100::cool::cool::cool::100::cool::100::100::100::cool::cool::cool::joy:\n:joy::cool::100::100::cool::100::100::cool::100::cool::100::100::cool::cool::joy:\n:joy::cool::cool::100::cool::100::cool::cool::100::cool::cool::100::100::cool::joy:\n:joy::cool::cool::100::100::100::cool::cool::100::cool::cool::cool::100::cool::joy:\n:joy::cool::cool::cool::100::cool::cool::cool::100::cool::cool::cool::100::cool::joy:\n:joy::cool::cool::100::100::100::cool::cool::100::cool::cool::cool::100::cool::joy:\n:joy::cool::cool::100::cool::100::cool::cool::100::cool::cool::100::100::cool::joy:\n:joy::cool::100::100::cool::100::100::cool::100::cool::100::100::cool::cool::joy:\n:joy::cool::100::cool::cool::cool::100::cool::100::100::100::cool::cool::cool::joy:\n:joy::cool::cool::cool::cool::cool::cool::cool::cool::cool::cool::cool::cool::cool::joy:\n:joy::joy::joy::joy::joy::joy::joy::joy::joy::joy::joy::joy::joy::joy::joy:','U5TQU3WQ7','2017-12-13 14:52:04');
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
 /*!40101 SET character_set_client = utf8 */;
-CREATE TABLE `data` (
-  `id` int(11) unsigned NOT NULL AUTO_INCREMENT,
-  `namespace` varchar(60) NOT NULL DEFAULT '',
-  `data` blob NOT NULL,
-  `updated` date NOT NULL,
-  PRIMARY KEY (`id`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8;
-/*!40101 SET character_set_client = @saved_cs_client */;
-/*!40101 SET @saved_cs_client     = @@character_set_client */;
-/*!40101 SET character_set_client = utf8 */;
 CREATE TABLE `settings` (
   `key` varchar(32) NOT NULL DEFAULT '',
   `value` blob NOT NULL,
@@ -56,7 +46,7 @@ CREATE TABLE `settings` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
 INSERT INTO `settings` VALUES ('triggerChanceToSpeak','\"5\"','Out of 100, the chance that the bot can auto reply to triggers automatically straight after the timer has been reset.');
-INSERT INTO `settings` VALUES ('triggerReplyInterval','\"60000\"','How much time has to elapse before the bot has a 100% chance of triggering');
+INSERT INTO `settings` VALUES ('triggerReplyInterval','\"180000\"','How much time has to elapse before the bot has a 100% chance of triggering');
 INSERT INTO `settings` VALUES ('updateChannelsInterval','\"300000\"','How often to request the channels list from the Slack API');
 INSERT INTO `settings` VALUES ('updateUsersInterval','\"300000\"','How often to request the users list from the Slack API');
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
