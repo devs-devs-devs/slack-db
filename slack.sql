@@ -29,7 +29,8 @@ CREATE TABLE `triggers` (
   `id` int(11) unsigned NOT NULL AUTO_INCREMENT,
   `trigger` varchar(128) NOT NULL DEFAULT '',
   `phrase` blob NOT NULL,
-  `added` datetime NOT NULL DEFAULT '0000-00-00 00:00:00' ON UPDATE CURRENT_TIMESTAMP,
+  `added` datetime NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
+  `user` varchar(32) DEFAULT '',
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
