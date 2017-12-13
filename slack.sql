@@ -58,7 +58,7 @@ CREATE TABLE `triggers` (
   `added` datetime NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
   `user` varchar(32) NOT NULL DEFAULT '',
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=10 DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB AUTO_INCREMENT=16 DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
 INSERT INTO `triggers` VALUES (1,'<@u87u6es12>','fuck off you mug','2017-12-13 14:53:14','U5TQU3WQ7');
 INSERT INTO `triggers` VALUES (2,'<@u87u6es12>','are you mugging me off in front of my friends?','2017-12-13 14:58:49','U5TQU3WQ7');
@@ -69,3 +69,9 @@ INSERT INTO `triggers` VALUES (6,'/nosetime',':rolled_up_newspaper:\n:spacer::ri
 INSERT INTO `triggers` VALUES (7,'edm',':callum2: _&lt; ( this new david guetta track is sick! )_','2017-12-13 15:00:48','U5TQU3WQ7');
 INSERT INTO `triggers` VALUES (8,'cripsy','_crispy_','2017-12-13 15:01:53','U5TQU3WQ7');
 INSERT INTO `triggers` VALUES (9,':smirt',':smirt:','2017-12-13 15:03:15','U5SV39UP5');
+INSERT INTO `triggers` VALUES (10,'hunter2','*******? see?','2017-12-13 16:42:01','U5TQU3WQ7');
+INSERT INTO `triggers` VALUES (11,'callum','_did you mean, Lil Funnel?_','2017-12-13 16:44:01','U5TQU3WQ7');
+INSERT INTO `triggers` VALUES (12,'michael',':uuuuuuuu:','2017-12-13 16:44:10','U5TQU3WQ7');
+INSERT INTO `triggers` VALUES (13,'michael',':ooooooooo:','2017-12-13 16:44:17','U5TQU3WQ7');
+INSERT INTO `triggers` VALUES (14,'michael',':aaaaaaaaaaaaaaaa:','2017-12-13 16:44:21','U5TQU3WQ7');
+INSERT INTO `triggers` VALUES (15,'michael',':iiiiiiiiiiiiii:','2017-12-13 16:44:36','U5TQU3WQ7');
