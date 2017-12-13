@@ -30,7 +30,9 @@ CREATE TABLE `triggers` (
   `trigger` varchar(128) NOT NULL DEFAULT '',
   `phrase` blob NOT NULL,
   `added` datetime NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
-  `user` varchar(32) DEFAULT '',
+  `user` varchar(32) NOT NULL DEFAULT '',
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB AUTO_INCREMENT=3 DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
+INSERT INTO `triggers` VALUES (1,'mum','ur pikey','2017-12-13 12:21:59','U5TQU3WQ7');
+INSERT INTO `triggers` VALUES (2,'pikey','ur mum','2017-12-13 12:22:32','U5TQU3WQ7');
