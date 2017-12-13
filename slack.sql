@@ -23,3 +23,13 @@ CREATE TABLE `settings` (
 /*!40101 SET character_set_client = @saved_cs_client */;
 INSERT INTO `settings` VALUES ('updateChannelsInterval','\"300000\"','How often to request the channels list from the Slack API');
 INSERT INTO `settings` VALUES ('updateUsersInterval','\"300000\"','How often to request the users list from the Slack API');
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `triggers` (
+  `id` int(11) unsigned NOT NULL AUTO_INCREMENT,
+  `trigger` varchar(128) NOT NULL DEFAULT '',
+  `phrase` blob NOT NULL,
+  `added` datetime NOT NULL DEFAULT '0000-00-00 00:00:00' ON UPDATE CURRENT_TIMESTAMP,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+/*!40101 SET character_set_client = @saved_cs_client */;
