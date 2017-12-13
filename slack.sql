@@ -58,7 +58,7 @@ CREATE TABLE `triggers` (
   `added` datetime NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
   `user` varchar(32) NOT NULL DEFAULT '',
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=16 DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB AUTO_INCREMENT=19 DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
 INSERT INTO `triggers` VALUES (1,'<@u87u6es12>','fuck off you mug','2017-12-13 14:53:14','U5TQU3WQ7');
 INSERT INTO `triggers` VALUES (2,'<@u87u6es12>','are you mugging me off in front of my friends?','2017-12-13 14:58:49','U5TQU3WQ7');
@@ -71,7 +71,10 @@ INSERT INTO `triggers` VALUES (8,'cripsy','_crispy_','2017-12-13 15:01:53','U5TQ
 INSERT INTO `triggers` VALUES (9,':smirt',':smirt:','2017-12-13 15:03:15','U5SV39UP5');
 INSERT INTO `triggers` VALUES (10,'hunter2','*******? see?','2017-12-13 16:42:01','U5TQU3WQ7');
 INSERT INTO `triggers` VALUES (11,'callum','_did you mean, Lil Funnel?_','2017-12-13 16:44:01','U5TQU3WQ7');
-INSERT INTO `triggers` VALUES (12,'michael',':uuuuuuuu:','2017-12-13 16:44:10','U5TQU3WQ7');
-INSERT INTO `triggers` VALUES (13,'michael',':ooooooooo:','2017-12-13 16:44:17','U5TQU3WQ7');
-INSERT INTO `triggers` VALUES (14,'michael',':aaaaaaaaaaaaaaaa:','2017-12-13 16:44:21','U5TQU3WQ7');
-INSERT INTO `triggers` VALUES (15,'michael',':iiiiiiiiiiiiii:','2017-12-13 16:44:36','U5TQU3WQ7');
+INSERT INTO `triggers` VALUES (12,'michael',':uuuuuuuu: < ( _uuuuuuuu_ )','2017-12-13 16:45:06','U5TQU3WQ7');
+INSERT INTO `triggers` VALUES (13,'michael',':ooooooooo: < ( _ooooooooo_ )','2017-12-13 16:45:19','U5TQU3WQ7');
+INSERT INTO `triggers` VALUES (14,'michael',':aaaaaaaaaaaaaaaa: < ( _aaaaaaaaaaaaaaaa_ )','2017-12-13 16:45:50','U5TQU3WQ7');
+INSERT INTO `triggers` VALUES (15,'michael',':iiiiiiiiiiiiii: < ( _iiiiiiiiiiiiii_ )','2017-12-13 16:45:45','U5TQU3WQ7');
+INSERT INTO `triggers` VALUES (16,'callum',':scrabble-l: :scrabble-i: :scrabble-l: :spacer: :scrabble-f: :scrabble-u: :scrabble-n: :scrabble-n: :scrabble-e: :scrabble-l:','2017-12-13 16:48:05','U5TQU3WQ7');
+INSERT INTO `triggers` VALUES (17,'<@u5tpvs84e>',':scrabble-l: :scrabble-i: :scrabble-l: :spacer: :scrabble-f: :scrabble-u: :scrabble-n: :scrabble-n: :scrabble-e: :scrabble-l:','2017-12-13 16:48:11','U5TQU3WQ7');
+INSERT INTO `triggers` VALUES (18,'dota','League is better tbh','2017-12-13 16:48:31','U5TQU3WQ7');
