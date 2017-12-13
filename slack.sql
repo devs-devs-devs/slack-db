@@ -4,6 +4,14 @@ CREATE DATABASE /*!32312 IF NOT EXISTS*/ `slack` /*!40100 DEFAULT CHARACTER SET 
 USE `slack`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
 /*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `copypasta` (
+  `id` int(11) unsigned NOT NULL AUTO_INCREMENT,
+  `copypasta` blob NOT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+/*!40101 SET character_set_client = @saved_cs_client */;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
 CREATE TABLE `data` (
   `id` int(11) unsigned NOT NULL AUTO_INCREMENT,
   `namespace` varchar(60) NOT NULL DEFAULT '',
