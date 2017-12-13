@@ -12,8 +12,8 @@ CREATE TABLE `copypasta` (
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB AUTO_INCREMENT=25 DEFAULT CHARSET=utf8mb4;
 /*!40101 SET character_set_client = @saved_cs_client */;
-INSERT INTO `copypasta` VALUES (1,':callum2: &amp;lt; ( _DJ Lil Funnel inside the place_ )','U5TQU3WQ7','2017-12-13 14:44:03');
-INSERT INTO `copypasta` VALUES (2,'Mom :person_with_pouting_face::skin-tone-2:, I can’t do my homework :notebook: right now :triumph:. I’m reading :bow::skin-tone-2: how Lil Pump :boy::skin-tone-4: got founded :mag_right: by a music :notes: producer :man::skin-tone-5:‍:briefcase:. Lil Pump :boy::skin-tone-4:served chili :spaghetti: at the chilli con festival :tada: to a music :notes: producer :man::skin-tone-5:‍:briefcase: vacationing :beach_with_umbrella: with his family :man::skin-tone-5:‍:briefcase::bride_with_veil::skin-tone-5::baby::skin-tone-5: the day before going to see Wrestlemania XVII :muscle::skin-tone-2:🤛:skin-tone-2:\\nThey were so impressed :heart_eyes: by Lil Pump’s :boy::skin-tone-4: deposition :sunglasses: and his ability to mumble :zipper_mouth_face: whole phrases almost completely inaudible :speaking_head_in_silhouette::question: they signed him up immediately :moneybag:','U5TQU3WQ7','2017-12-13 14:44:12');
+INSERT INTO `copypasta` VALUES (1,':callum2: < ( _DJ Lil Funnel inside the place_ )','U5TQU3WQ7','2017-12-13 14:44:03');
+INSERT INTO `copypasta` VALUES (2,'Mom :person_with_pouting_face::skin-tone-2:, I can’t do my homework :notebook: right now :triumph:. I’m reading :bow::skin-tone-2: how Lil Pump :boy::skin-tone-4: got founded :mag_right: by a music :notes: producer :man::skin-tone-5:‍:briefcase:. Lil Pump :boy::skin-tone-4:served chili :spaghetti: at the chilli con festival :tada: to a music :notes: producer :man::skin-tone-5:‍:briefcase: vacationing :beach_with_umbrella: with his family :man::skin-tone-5:‍:briefcase::bride_with_veil::skin-tone-5::baby::skin-tone-5: the day before going to see Wrestlemania XVII :muscle::skin-tone-2:🤛:skin-tone-2:\nThey were so impressed :heart_eyes: by Lil Pump’s :boy::skin-tone-4: deposition :sunglasses: and his ability to mumble :zipper_mouth_face: whole phrases almost completely inaudible :speaking_head_in_silhouette::question: they signed him up immediately :moneybag:','U5TQU3WQ7','2017-12-13 14:44:12');
 INSERT INTO `copypasta` VALUES (3,':warning::warning: warning : you need an IQ of at least 200 to understand this comment :warning::warning:\\nWa:b::b:a lu:b::b:a du:b: du:b: i’m pickle Rick :smile::joy::joy::joy:\\nHit that mf like if you understood:ok_hand::100::stuck_out_tongue_winking_eye:','U5TQU3WQ7','2017-12-13 14:44:19');
 INSERT INTO `copypasta` VALUES (4,'I’m the edgiest boy :boy::skin-tone-2: I am so edgy my parents :man::skin-tone-2::woman::skin-tone-2: sent me to military school :school: the instructor :man:‍:school: came to me and yelled at me then touched my willy I tried to scream but he tied my mouth :lips: then he pinned me down and raped me it made me more edgy :dagger_knife::syringe::gun::bomb::hocho::smoking:','U5TQU3WQ7','2017-12-13 14:44:29');
 INSERT INTO `copypasta` VALUES (5,'mommy :open_mouth::open_mouth: says im :laughing: special :fire::fire: for having an :triumph: extra :smirk: chromosome. im smarter :eggplant::eggplant: than the normal people because i have and EXTRA :sweat_drops::sweat_drops: chromosome. thats ONE more than :sunglasses: you buddy. :fire::fire: i have :raised_hands::skin-tone-2: more smarts :green_apple::green_apple: than u. mommy :raising_hand::skin-tone-6: says the bullies™ r just JELLY. :joy: they are jelly because :bow::skin-tone-6: i have an extra hand in :b:ed :weary::wink: jello :100: seed is a diss ease bitch :back:','U5TQU3WQ7','2017-12-13 14:44:39');
@@ -68,10 +68,14 @@ CREATE TABLE `triggers` (
   `added` datetime NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
   `user` varchar(32) NOT NULL DEFAULT '',
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=6 DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB AUTO_INCREMENT=10 DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
 INSERT INTO `triggers` VALUES (1,'<@u87u6es12>','fuck off you mug','2017-12-13 14:53:14','U5TQU3WQ7');
 INSERT INTO `triggers` VALUES (2,'<@u87u6es12>','are you mugging me off in front of my friends?','2017-12-13 14:58:49','U5TQU3WQ7');
 INSERT INTO `triggers` VALUES (3,'<@u87u6es12>','oi lads who remembers that time lil funnel archived general, twat','2017-12-13 14:58:57','U5TQU3WQ7');
 INSERT INTO `triggers` VALUES (4,'kanken',':enrique: < ( _kanken is for girls and i am a thicccc girl :fidget:_ )','2017-12-13 14:59:33','U5TQU3WQ7');
-INSERT INTO `triggers` VALUES (5,'<@u5tpvs84e>','_did you mean, lil funnel?_','2017-12-13 14:59:47','U5TQU3WQ7');
+INSERT INTO `triggers` VALUES (5,'<@u5tpvs84e>','_did you mean, Lil Funnel?_','2017-12-13 15:00:05','U5TQU3WQ7');
+INSERT INTO `triggers` VALUES (6,'/nosetime',':rolled_up_newspaper:\n:spacer::rice::rice::rice::rice::rice::rice::rice::rice::rice::rice::rice:','2017-12-13 15:00:30','U5TQU3WQ7');
+INSERT INTO `triggers` VALUES (7,'edm',':callum2: _&lt; ( this new david guetta track is sick! )_','2017-12-13 15:00:48','U5TQU3WQ7');
+INSERT INTO `triggers` VALUES (8,'cripsy','_crispy_','2017-12-13 15:01:53','U5TQU3WQ7');
+INSERT INTO `triggers` VALUES (9,':smirt',':smirt:','2017-12-13 15:03:15','U5SV39UP5');
