@@ -57,6 +57,16 @@ INSERT INTO `copypasta` VALUES (42,':cop::skin-tone-2::man_with_gua_pi_mao::skin
 INSERT INTO `copypasta` VALUES (43,':gun::gun::biohazard_sign::radioactive_sign:daNGerous shit:gun: :radioactive_sign:dangerous :smoking:shit :syringe: tHats some:gun: :biohazard_sign: d angerous sHit :gun::gun: right :syringe:thEre (chorus: ʳᶦᵍʰᵗ ᵗʰᵉʳᵉ) mmmMMmMMmmm:syringe::syringe: :smoking::smoking::smoking::smoking:HOOoOooOOooOOOOoooooooo:gun::biohazard_sign::radioactive_sign::radioactive_sign::radioactive_sign::radioactive_sign: DangerOus shit :radioactive_sign::radioactive_sign::gun::radioactive_sign: DanGerouS sh1t :smoking:tHats somE :smoking: dangRous shit:syringe: r ight the:syringe:re :smoking::smoking: if i dosay so my :smoking:sel f :gun:i say so :syringe: :syringe: tha ts what im talk in:syringe:g about right th:radioactive_sign:ere right there:radioactive_sign:(chorus: ʳᶦᵍʰᵗ ᵗʰᵉʳᵉ) mMMmmMMMM:radioactive_sign::gun::gun::gun:HOOOOOOOOOOOooOoO:biohazard_sign::radioactive_sign::radioactive_sign::radioactive_sign::gun::biohazard_sign: Dangerous Shit','U5SV39UP5','2017-12-14 14:28:31');
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
 /*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `quote` (
+  `id` int(11) unsigned NOT NULL AUTO_INCREMENT,
+  `quote` blob NOT NULL,
+  `user` varchar(32) NOT NULL DEFAULT '',
+  `updated` datetime NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+/*!40101 SET character_set_client = @saved_cs_client */;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
 CREATE TABLE `settings` (
   `key` varchar(32) NOT NULL DEFAULT '',
   `value` blob NOT NULL,
@@ -98,5 +108,5 @@ INSERT INTO `triggers` VALUES (16,'callum',':scrabble-l: :scrabble-i: :scrabble-
 INSERT INTO `triggers` VALUES (17,'<@u5tpvs84e>',':scrabble-l: :scrabble-i: :scrabble-l: :spacer: :scrabble-f: :scrabble-u: :scrabble-n: :scrabble-n: :scrabble-e: :scrabble-l:','2017-12-13 16:48:11','U5TQU3WQ7');
 INSERT INTO `triggers` VALUES (18,'dota','League is better tbh','2017-12-13 16:48:31','U5TQU3WQ7');
 INSERT INTO `triggers` VALUES (19,'<@u5sv39up5>','_Awwwww he’s a good boy_ :dog: ','2017-12-13 17:36:04','U5TQU3WQ7');
-INSERT INTO `triggers` VALUES (20,'adobe','_GATHER :clap: THE :clap: CROWD_\n\n_SAY :clap: IT :clap: LOUD_\n\n_CHIRS :clap: O’DOWD_','2017-12-14 11:14:32','U5TQU3WQ7');
+INSERT INTO `triggers` VALUES (20,'adobe','_GATHER :clap: THE :clap: CROWD_\n\n_SHOUT :clap: IT :clap: ALOUD_\n\n_CHIRS :clap: O’DOWD_','2017-12-14 15:21:59','U5TQU3WQ7');
 INSERT INTO `triggers` VALUES (21,'sql','I preferred the original.','2017-12-14 13:02:30','U5TQU3WQ7');
