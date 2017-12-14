@@ -63,9 +63,9 @@ CREATE TABLE `quote` (
   `user` varchar(32) NOT NULL DEFAULT '',
   `updated` datetime NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=5 DEFAULT CHARSET=utf8mb4;
+) ENGINE=InnoDB AUTO_INCREMENT=6 DEFAULT CHARSET=utf8mb4;
 /*!40101 SET character_set_client = @saved_cs_client */;
-INSERT INTO `quote` VALUES (4,'&lt; <@undefined> &gt; _did you mean, Lil Funnel?_','U5TQU3WQ7','2017-12-14 17:22:27');
+INSERT INTO `quote` VALUES (5,'&lt; <@U5TPVS84E> &gt; im on 300mb and somtimes it goes down like 90% of the way and i dont notice\n&lt; <@U5TPVS84E> &gt; because who the fuck needs internet that fast\n&lt; <@U5T3QSJPP> &gt; Depends how many Chaturbate tabs you’ve got open.\n&lt; <@U5SUYBLEP> &gt; chaturbate\n&lt; <@U5SUYBLEP> &gt; what year is it','U5TQU3WQ7','2017-12-14 17:26:09');
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
 /*!40101 SET character_set_client = utf8 */;
 CREATE TABLE `settings` (
