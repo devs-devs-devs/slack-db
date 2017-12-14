@@ -65,9 +65,6 @@ CREATE TABLE `quote` (
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB AUTO_INCREMENT=4 DEFAULT CHARSET=utf8mb4;
 /*!40101 SET character_set_client = @saved_cs_client */;
-INSERT INTO `quote` VALUES (1,'&lt; <@U5TQU3WQ7> &gt; why','U5TQU3WQ7','2017-12-14 17:07:22');
-INSERT INTO `quote` VALUES (2,'&lt; <@U5TQU3WQ7> &gt; why','U5TQU3WQ7','2017-12-14 17:08:38');
-INSERT INTO `quote` VALUES (3,'&lt; <@U5TQU3WQ7> &gt; why','U5TQU3WQ7','2017-12-14 17:09:04');
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
 /*!40101 SET character_set_client = utf8 */;
 CREATE TABLE `settings` (
