@@ -66,7 +66,7 @@ CREATE TABLE `triggers` (
   `added` datetime NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
   `user` varchar(32) NOT NULL DEFAULT '',
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=21 DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB AUTO_INCREMENT=22 DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
 INSERT INTO `triggers` VALUES (1,'<@u87u6es12>','fuck off you mug','2017-12-13 14:53:14','U5TQU3WQ7');
 INSERT INTO `triggers` VALUES (2,'<@u87u6es12>','are you mugging me off in front of my friends?','2017-12-13 14:58:49','U5TQU3WQ7');
@@ -88,3 +88,4 @@ INSERT INTO `triggers` VALUES (17,'<@u5tpvs84e>',':scrabble-l: :scrabble-i: :scr
 INSERT INTO `triggers` VALUES (18,'dota','League is better tbh','2017-12-13 16:48:31','U5TQU3WQ7');
 INSERT INTO `triggers` VALUES (19,'<@u5sv39up5>','_Awwwww he’s a good boy_ :dog: ','2017-12-13 17:36:04','U5TQU3WQ7');
 INSERT INTO `triggers` VALUES (20,'adobe','_GATHER :clap: THE :clap: CROWD_\n\n_SAY :clap: IT :clap: LOUD_\n\n_CHIRS :clap: O’DOWD_','2017-12-14 11:14:32','U5TQU3WQ7');
+INSERT INTO `triggers` VALUES (21,'sql','I preferred the original.','2017-12-14 13:02:30','U5TQU3WQ7');
