@@ -72,11 +72,14 @@ CREATE TABLE `quote` (
   `user` varchar(32) NOT NULL DEFAULT '',
   `updated` datetime NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=10 DEFAULT CHARSET=utf8mb4;
+) ENGINE=InnoDB AUTO_INCREMENT=13 DEFAULT CHARSET=utf8mb4;
 /*!40101 SET character_set_client = @saved_cs_client */;
 INSERT INTO `quote` VALUES (5,'&lt; <@U5TPVS84E> &gt; im on 300mb and somtimes it goes down like 90% of the way and i dont notice\n&lt; <@U5TPVS84E> &gt; because who the fuck needs internet that fast\n&lt; <@U5T3QSJPP> &gt; Depends how many Chaturbate tabs you’ve got open.\n&lt; <@U5SUYBLEP> &gt; chaturbate\n&lt; <@U5SUYBLEP> &gt; what year is it','U5TQU3WQ7','2017-12-14 17:26:09');
 INSERT INTO `quote` VALUES (7,'&lt; @BOT BOT BOT &gt; :scrabble-l: :scrabble-i: :scrabble-l: :spacer: :scrabble-f: :scrabble-u: :scrabble-n: :scrabble-n: :scrabble-e: :scrabble-l:','U5TQU3WQ7','2017-12-14 18:59:21');
 INSERT INTO `quote` VALUES (9,'&lt; <@BOT BOT BOT> &gt; _Having :clap: sex :clap: with :clap: a :clap: girl :clap: is :clap: GAY. :clap: Half :clap: of :clap: her :clap: chromosomes :clap: are :clap: from :clap: her :clap: dad :clap: and :clap: half :clap: of :clap: her :clap: chromosomes :clap: are :clap: from :clap: her :clap: mom. :clap: But :clap: so :clap: are :clap: yours. :clap: Therefore, :clap: every :clap: time :clap: you :clap: have :clap: sex :clap: it’s :clap: 50% :clap: gay :clap: and :clap: 50% :clap: straight. :clap: So :clap: if :clap: u :clap: ain’t :clap: bi :clap: then :clap: quit :clap: having :clap: sex. :clap: Y’all :clap: motherfuckers :clap: make :clap: me :clap: sick._','U5TQU3WQ7','2017-12-15 12:24:41');
+INSERT INTO `quote` VALUES (10,'&lt; <@U5TQU3WQ7> &gt; <@U5TPVS84E> I\'m at BENYON wharf what\'s the password\n&lt; <@BOT BOT BOT> &gt; :scrabble-l: :scrabble-i: :scrabble-l: :spacer: :scrabble-f: :scrabble-u: :scrabble-n: :scrabble-n: :scrabble-e: :scrabble-l:','U5TQU3WQ7','2017-12-15 14:06:23');
+INSERT INTO `quote` VALUES (11,'&lt; <@U5W0P5UGH> &gt; is this slack even for dev related questions? :thinking_face:','','2017-12-15 14:08:37');
+INSERT INTO `quote` VALUES (12,'','','2017-12-15 14:08:38');
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
 /*!40101 SET character_set_client = utf8 */;
 CREATE TABLE `settings` (
