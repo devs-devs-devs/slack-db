@@ -146,7 +146,7 @@ CREATE TABLE `triggers` (
   `added` datetime NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
   `user` varchar(32) NOT NULL DEFAULT '',
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=24 DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB AUTO_INCREMENT=25 DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
 INSERT INTO `triggers` VALUES (1,'<@u87u6es12>','fuck off you mug','2017-12-13 14:53:14','U5TQU3WQ7');
 INSERT INTO `triggers` VALUES (2,'<@u87u6es12>','are you mugging me off in front of my friends?','2017-12-13 14:58:49','U5TQU3WQ7');
@@ -171,3 +171,4 @@ INSERT INTO `triggers` VALUES (20,'adobe','_GATHER :clap: THE :clap: CROWD_\n\n_
 INSERT INTO `triggers` VALUES (21,'sql','I preferred the original.','2017-12-14 13:02:30','U5TQU3WQ7');
 INSERT INTO `triggers` VALUES (22,'rekt','rekt the discotheque','2017-12-19 17:29:17','U5TQU3WQ7');
 INSERT INTO `triggers` VALUES (23,'dick','“🇮 🇳 🇪 🇪 🇩 🇸 🇴 🇲 🇪 🇩 🇮 🇨 🇰 🇮 🇳 🇲 🇾 🇱 🇮 🇫 🇪”','2017-12-26 17:55:53','U5T42GE81');
+INSERT INTO `triggers` VALUES (24,'duck',':rubberduck: ','2017-12-26 18:14:45','U5SESGTME');
