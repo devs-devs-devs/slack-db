@@ -152,7 +152,7 @@ CREATE TABLE `triggers` (
   `added` datetime NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
   `user` varchar(32) NOT NULL DEFAULT '',
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=28 DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB AUTO_INCREMENT=29 DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
 INSERT INTO `triggers` VALUES (1,'<@u87u6es12>','fuck off you mug','2017-12-13 14:53:14','U5TQU3WQ7');
 INSERT INTO `triggers` VALUES (2,'<@u87u6es12>','are you mugging me off in front of my friends?','2017-12-13 14:58:49','U5TQU3WQ7');
@@ -181,3 +181,4 @@ INSERT INTO `triggers` VALUES (24,'duck',':rubberduck: ','2017-12-26 18:14:45','
 INSERT INTO `triggers` VALUES (25,'thick','乇乂丅尺卂 丅卄工匚匚','2018-01-04 21:56:02','U5TQU3WQ7');
 INSERT INTO `triggers` VALUES (26,'thick',':wheelchair::callum2: &lt; ( Nnnnnghhhh I’m thick as shit )','2018-01-04 21:56:37','U5TQU3WQ7');
 INSERT INTO `triggers` VALUES (27,'true','`!0`','2018-01-05 17:10:23','U5SV39UP5');
+INSERT INTO `triggers` VALUES (28,'<@u5tpvs84e>',':callum2:  &lt; ( _it’s ya boiiiii, Lil, Funnel_ )','2018-01-09 11:47:02','U5TQU3WQ7');
