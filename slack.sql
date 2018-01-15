@@ -190,7 +190,6 @@ INSERT INTO `triggers` VALUES (25,'thick','乇乂丅尺卂 丅卄工匚匚','201
 INSERT INTO `triggers` VALUES (26,'thick',':wheelchair::callum2: &lt; ( Nnnnnghhhh I’m thick as shit )','2018-01-04 21:56:37','U5TQU3WQ7');
 INSERT INTO `triggers` VALUES (27,'true','`!0`','2018-01-05 17:10:23','U5SV39UP5');
 INSERT INTO `triggers` VALUES (28,'<@u5tpvs84e>',':callum2:  &lt; ( _it’s ya boiiiii, Lil, Funnel_ )','2018-01-09 11:47:02','U5TQU3WQ7');
-INSERT INTO `triggers` VALUES (29,'reggae','“Shoodilley-wop. shoodilley-woop. ooh wow oooooooooh, eeh-ooh. eeh-ooh, ooh-eeh-ooh. shoodilley-waddliley-diddley-diddley wow-oh-oh. Zeen!”','2018-01-10 13:16:28','U5T42GE81');
 INSERT INTO `triggers` VALUES (30,'reggae','Shoodilley-wop. shoodilley-woop. ooh wow oooooooooh, eeh-ooh. eeh-ooh, ooh-eeh-ooh. shoodilley-waddliley-diddley-diddley wow-oh-oh. Zeen!','2018-01-10 13:16:52','U5T42GE81');
 INSERT INTO `triggers` VALUES (31,'grill','i HTAEE the friend zone u make a girl chocolate milk and she WONT have sexd with u unbelievable whats the point','2018-01-15 13:49:49','U5TQU3WQ7');
 INSERT INTO `triggers` VALUES (32,'salary','So you know me :triumph::smiling_imp::triumph:workin:+1::+1: grindin :muscle::muscle::muscle:stackin the CASH :moneybag::moneybag::dollar::dollar:workin so I can be :gem::gem:LAVISH :gem::gem:but hey:point_up::point_up: it’s not easy:no_good:‍♂️:no_good:‍♂️ always being on the clock. :mantelpiece_clock::alarm_clock:','2018-01-15 13:55:05','U5TQU3WQ7');
