@@ -136,7 +136,7 @@ CREATE TABLE `quote` (
   `user` varchar(32) NOT NULL DEFAULT '',
   `updated` datetime NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=16 DEFAULT CHARSET=utf8mb4;
+) ENGINE=InnoDB AUTO_INCREMENT=17 DEFAULT CHARSET=utf8mb4;
 /*!40101 SET character_set_client = @saved_cs_client */;
 INSERT INTO `quote` VALUES (5,'&lt; <@U5TPVS84E> &gt; im on 300mb and somtimes it goes down like 90% of the way and i dont notice\n&lt; <@U5TPVS84E> &gt; because who the fuck needs internet that fast\n&lt; <@U5T3QSJPP> &gt; Depends how many Chaturbate tabs you’ve got open.\n&lt; <@U5SUYBLEP> &gt; chaturbate\n&lt; <@U5SUYBLEP> &gt; what year is it','U5TQU3WQ7','2017-12-14 17:26:09');
 INSERT INTO `quote` VALUES (7,'&lt; @BOT BOT BOT &gt; :scrabble-l: :scrabble-i: :scrabble-l: :spacer: :scrabble-f: :scrabble-u: :scrabble-n: :scrabble-n: :scrabble-e: :scrabble-l:','U5TQU3WQ7','2017-12-14 18:59:21');
@@ -146,6 +146,7 @@ INSERT INTO `quote` VALUES (11,'&lt; <@U5W0P5UGH> &gt; is this slack even for de
 INSERT INTO `quote` VALUES (13,'&lt; <@U5TPVS84E> &gt; the road near where i work\n&lt; <@U5TPVS84E> &gt; has like made a lil funnel or something\n&lt; <@U5TPVS84E> &gt; and i swear the wind is 60mph','U5TQU3WQ7','2017-12-15 14:50:21');
 INSERT INTO `quote` VALUES (14,'&lt; <@U5TQU3WQ7> &gt; bot wont reply until 3:10\n&lt; <@U5T0D3EQJ> &gt; michael\n&lt; <@BOT BOT BOT> &gt; :iiiiiiiiiiiiii: &lt; ( _iiiiiiiiiiiiii_ )','U5TQU3WQ7','2017-12-15 15:09:28');
 INSERT INTO `quote` VALUES (15,'&lt; <@U5TPVS84E> &gt; there is a small hole growing in the bottom of my foot\n&lt; <@U5TPVS84E> &gt; interesting\n&lt; <@BOT BOT BOT> &gt; :hole::finger_hole::finger_hole::finger_hole::hole::finger_hole::hole: hole shit HOLe sHit :hole: thats :hole: some hole :finger_hole::hole: shit right :hole::hole: there :finger_hole::hole::hole: right :hole: there :hole::hole: if i do say so myself :finger_hole: i say so :hole: thats what im talking about right there right there (chorus: ᶦᵗ\'ˢ ʳᶦᵍʰᵗ ᵗʰᵉʳᵉ) mMMMMᎷМ :hole::hole::hole::hole: ZO0ОଠOOOOOОଠଠOoooᵒᵒᵒᵒᵒᵒᵒᵒᵒᵐ: :finger_hole::hole::hole::finger_hole::finger_hole::hole::finger_hole::finger_hole::hole::finger_hole: hole shit','U5TQU3WQ7','2017-12-19 17:14:49');
+INSERT INTO `quote` VALUES (16,'&lt; <@U5SUYBLEP> &gt; (internally i weap)','U5TQU3WQ7','2018-01-18 13:04:40');
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
 /*!40101 SET character_set_client = utf8 */;
 CREATE TABLE `settings` (
