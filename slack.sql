@@ -191,7 +191,7 @@ CREATE TABLE `triggers` (
   `added` datetime NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
   `user` varchar(32) NOT NULL DEFAULT '',
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=37 DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB AUTO_INCREMENT=38 DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
 INSERT INTO `triggers` VALUES (1,'<@u87u6es12>','fuck off you mug','2017-12-13 14:53:14','U5TQU3WQ7');
 INSERT INTO `triggers` VALUES (2,'<@u87u6es12>','are you mugging me off in front of my friends?','2017-12-13 14:58:49','U5TQU3WQ7');
@@ -228,3 +228,4 @@ INSERT INTO `triggers` VALUES (33,'fuggedaboutit','“Forget about it” is, lik
 INSERT INTO `triggers` VALUES (34,'shitpost',':shitposting::shitposting::shitposting::shitposting::shitposting::shitposting::shitposting: shitpost shit ShiTpoSt sHiT :shitposting: thats :shitposting: some shitpost :shitposting::shitposting: shit right :shitposting::shitposting: there :shitposting::shitposting::shitposting: right :shitposting: there :shitposting::shitposting: if i do say so myself :shitposting: i say so :shitposting: thats what im talking about right there right there (chorus: ᶦᵗ’ˢ ʳᶦᵍʰᵗ ᵗʰᵉʳᵉ) mMMMMᎷМ :shitposting::shitposting::shitposting::shitposting: ZO0ОଠOOOOOОଠଠOoooᵒᵒᵒᵒᵒᵒᵒᵒᵒᵐ: :shitposting::shitposting::shitposting::shitposting::shitposting::shitposting::shitposting::shitposting::shitposting::shitposting: shitpost shit','2018-02-02 16:16:54','U5TQU3WQ7');
 INSERT INTO `triggers` VALUES (35,'<@u5sesgtme>','bebraws memaw rides a seesaw','2018-02-02 16:17:46','U5TQU3WQ7');
 INSERT INTO `triggers` VALUES (36,'dead','rawr ecks dee xD','2018-02-06 14:33:39','U5TQU3WQ7');
+INSERT INTO `triggers` VALUES (37,'<@u5t0d3eqj>','&gt;I bet he hasn’t quit yet\n~ <@U87U6ES12> Tuesday 6th Feb, 5:05pm','2018-02-06 17:06:03','U5TQU3WQ7');
