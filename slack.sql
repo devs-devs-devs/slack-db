@@ -191,7 +191,7 @@ CREATE TABLE `triggers` (
   `added` datetime NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
   `user` varchar(32) NOT NULL DEFAULT '',
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=36 DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB AUTO_INCREMENT=37 DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
 INSERT INTO `triggers` VALUES (1,'<@u87u6es12>','fuck off you mug','2017-12-13 14:53:14','U5TQU3WQ7');
 INSERT INTO `triggers` VALUES (2,'<@u87u6es12>','are you mugging me off in front of my friends?','2017-12-13 14:58:49','U5TQU3WQ7');
@@ -227,3 +227,4 @@ INSERT INTO `triggers` VALUES (32,'salary','So you know me :triumph::smiling_imp
 INSERT INTO `triggers` VALUES (33,'fuggedaboutit','“Forget about it” is, like, if you agree with someone, you know, like “Raquel Welch is one great piece of ass. Forget about it!” But then, if you disagree, like “A Lincoln is better than a Cadillac? Forget about it!” You know? But then, it’s also like if something’s the greatest thing in the world, like, “Minchia! Those peppers! Forget about it!” But it’s also like saying “Go to hell!” too. Like, you know, like “Hey Paulie, you got a one-inch pecker?” and Paulie says “Forget about it!” Sometimes it just means “Forget about it.','2018-01-22 14:51:26','U5T42GE81');
 INSERT INTO `triggers` VALUES (34,'shitpost',':shitposting::shitposting::shitposting::shitposting::shitposting::shitposting::shitposting: shitpost shit ShiTpoSt sHiT :shitposting: thats :shitposting: some shitpost :shitposting::shitposting: shit right :shitposting::shitposting: there :shitposting::shitposting::shitposting: right :shitposting: there :shitposting::shitposting: if i do say so myself :shitposting: i say so :shitposting: thats what im talking about right there right there (chorus: ᶦᵗ’ˢ ʳᶦᵍʰᵗ ᵗʰᵉʳᵉ) mMMMMᎷМ :shitposting::shitposting::shitposting::shitposting: ZO0ОଠOOOOOОଠଠOoooᵒᵒᵒᵒᵒᵒᵒᵒᵒᵐ: :shitposting::shitposting::shitposting::shitposting::shitposting::shitposting::shitposting::shitposting::shitposting::shitposting: shitpost shit','2018-02-02 16:16:54','U5TQU3WQ7');
 INSERT INTO `triggers` VALUES (35,'<@u5sesgtme>','bebraws memaw rides a seesaw','2018-02-02 16:17:46','U5TQU3WQ7');
+INSERT INTO `triggers` VALUES (36,'dead','rawr ecks dee xD','2018-02-06 14:33:39','U5TQU3WQ7');
