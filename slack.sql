@@ -197,7 +197,7 @@ CREATE TABLE `triggers` (
   `added` datetime NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
   `user` varchar(32) NOT NULL DEFAULT '',
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=38 DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB AUTO_INCREMENT=39 DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
 INSERT INTO `triggers` VALUES (1,'<@u87u6es12>','fuck off you mug','2017-12-13 14:53:14','U5TQU3WQ7');
 INSERT INTO `triggers` VALUES (2,'<@u87u6es12>','are you mugging me off in front of my friends?','2017-12-13 14:58:49','U5TQU3WQ7');
@@ -235,3 +235,4 @@ INSERT INTO `triggers` VALUES (34,'shitpost',':shitposting::shitposting::shitpos
 INSERT INTO `triggers` VALUES (35,'<@u5sesgtme>','bebraws memaw rides a seesaw','2018-02-02 16:17:46','U5TQU3WQ7');
 INSERT INTO `triggers` VALUES (36,'dead','i wish i was dead','2018-02-07 13:30:59','U5TQU3WQ7');
 INSERT INTO `triggers` VALUES (37,'<@u5t0d3eqj>','he hasn’t quit yet','2018-02-07 13:30:47','U5TQU3WQ7');
+INSERT INTO `triggers` VALUES (38,'<@u5sesgtme>',':fedora:','2018-02-08 11:40:55','U5TQU3WQ7');
