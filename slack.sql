@@ -212,7 +212,7 @@ CREATE TABLE `triggers` (
   `added` datetime NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
   `user` varchar(32) NOT NULL DEFAULT '',
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=42 DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB AUTO_INCREMENT=43 DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
 INSERT INTO `triggers` VALUES (1,'<@u87u6es12>','fuck off you mug','2017-12-13 14:53:14','U5TQU3WQ7');
 INSERT INTO `triggers` VALUES (2,'<@u87u6es12>','are you mugging me off in front of my friends?','2017-12-13 14:58:49','U5TQU3WQ7');
@@ -254,3 +254,4 @@ INSERT INTO `triggers` VALUES (38,'<@u5sesgtme>',':fedora:','2018-02-08 11:40:55
 INSERT INTO `triggers` VALUES (39,'<@u5t0d3eqj>','<http://hasgaffenquityet.com|hasgaffenquityet.com>','2018-02-13 15:05:11','U5TQU3WQ7');
 INSERT INTO `triggers` VALUES (40,'<@u5t0d3eqj>','Apuesta de 50 pesos que gaffen aún no se ha marchado','2018-02-13 15:06:39','U5TQU3WQ7');
 INSERT INTO `triggers` VALUES (41,'cunt','Oi oi cunty!','2018-02-13 15:11:19','U5TQU3WQ7');
+INSERT INTO `triggers` VALUES (42,'anal',':fist::fist::right-facing_fist::fist::arthur-fist::right-facing_fist::right-facing_fist: fisty:spacer:boii shit FiSTy:spacer:Boii sHIt :right-facing_fist: thats :right-facing_fist: some fisty:spacer:boii :right-facing_fist::fist_bump: shit right :arthur-fist::arthur-fist: there :arthur-fist::fist_bump::fist_bump: right :right-facing_fist: there :fist::right-facing_fist: if i do say so myself :fist: i say so :right-facing_fist: thats what im talking about right there right there (chorus: ᶦᵗ’ˢ ʳᶦᵍʰᵗ ᵗʰᵉʳᵉ) mMMMMᎷМ :fist::fist_bump::right-facing_fist::fist_bump: ZO0ОଠOOOOOОଠଠOoooᵒᵒᵒᵒᵒᵒᵒᵒᵒᵐ: :fist::right-facing_fist::arthur-fist::right-facing_fist::fist_bump::right-facing_fist::fist_bump::fist_bump::arthur-fist::fist_bump: fisty:spacer:boii shit','2018-02-13 16:45:14','U5TQU3WQ7');
