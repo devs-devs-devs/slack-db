@@ -215,7 +215,7 @@ CREATE TABLE `triggers` (
   `added` datetime NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
   `user` varchar(32) NOT NULL DEFAULT '',
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=71 DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB AUTO_INCREMENT=72 DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
 INSERT INTO `triggers` VALUES (1,'<@u87u6es12>','fuck off you mug','2017-12-13 14:53:14','U5TQU3WQ7');
 INSERT INTO `triggers` VALUES (2,'<@u87u6es12>','are you mugging me off in front of my friends?','2017-12-13 14:58:49','U5TQU3WQ7');
@@ -286,3 +286,4 @@ INSERT INTO `triggers` VALUES (67,'rekt',':white_large_square::white_large_squar
 INSERT INTO `triggers` VALUES (68,'!traps','Chickless dicks','2018-02-14 17:38:53','U5TQU3WQ7');
 INSERT INTO `triggers` VALUES (69,'!trap','Dickless chick','2018-02-14 17:41:42','U5T0J1UHY');
 INSERT INTO `triggers` VALUES (70,'!trendy','havin\' nu-age fun with a vintage feel','2018-02-14 17:44:09','U5T0J1UHY');
+INSERT INTO `triggers` VALUES (71,'mongo','( _my name is Tony hurrrrr hurrrrr_ ) &gt; :el-neutral: ','2018-02-14 21:22:46','U5TQU3WQ7');
