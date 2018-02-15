@@ -179,7 +179,7 @@ CREATE TABLE `quote` (
   `user` varchar(32) NOT NULL DEFAULT '',
   `updated` datetime NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=20 DEFAULT CHARSET=utf8mb4;
+) ENGINE=InnoDB AUTO_INCREMENT=21 DEFAULT CHARSET=utf8mb4;
 /*!40101 SET character_set_client = @saved_cs_client */;
 INSERT INTO `quote` VALUES (5,'&lt; <@U5TPVS84E> &gt; im on 300mb and somtimes it goes down like 90% of the way and i dont notice\n&lt; <@U5TPVS84E> &gt; because who the fuck needs internet that fast\n&lt; <@U5T3QSJPP> &gt; Depends how many Chaturbate tabs you’ve got open.\n&lt; <@U5SUYBLEP> &gt; chaturbate\n&lt; <@U5SUYBLEP> &gt; what year is it','U5TQU3WQ7','2017-12-14 17:26:09');
 INSERT INTO `quote` VALUES (7,'&lt; @BOT BOT BOT &gt; :scrabble-l: :scrabble-i: :scrabble-l: :spacer: :scrabble-f: :scrabble-u: :scrabble-n: :scrabble-n: :scrabble-e: :scrabble-l:','U5TQU3WQ7','2017-12-14 18:59:21');
@@ -193,6 +193,7 @@ INSERT INTO `quote` VALUES (16,'&lt; <@U5SUYBLEP> &gt; (internally i weap)','U5T
 INSERT INTO `quote` VALUES (17,'&lt; <@BOT BOT BOT> &gt; !cp add I :eye: just talked to Jesus :latin_cross::pray::skin-tone-2::church::place_of_worship: He said what up :point_up:, Yeezus:question::bear: I said shit :hankey::hankey: I\'m chillin\' :snowflake::ocean: Tryna stack :books:these millions :dollar::dollar::100::100:I know he :point_up:the most high :weary::heart_eyes: But I am the best way to insert content into the room out of nowhere, tripped and fell over, breaking a glass table with his fiery red monster cock.','U5TQU3WQ7','2018-02-09 12:53:14');
 INSERT INTO `quote` VALUES (18,'&lt; <@U5TQU3WQ7> &gt; !m <@U5T0J1UHY>\n&lt; <@BOT BOT BOT> &gt; I m not sure my feeble mind can handle that amount of bullshit right now','U5TQU3WQ7','2018-02-13 17:27:50');
 INSERT INTO `quote` VALUES (19,'&lt; <@BOT BOT BOT> &gt; You laugh at me because I\'m different, I laugh at you because you\'re all the same','U5TQU3WQ7','2018-02-13 21:17:04');
+INSERT INTO `quote` VALUES (20,'&lt; <@BOT BOT BOT> &gt; :callum2: &lt; ( _:callum2: :f: •?((¯°·._.•  RIP Lil\' Funnel, victim of Malaysian Airlines Flight MH370 •._.·°¯))؟• :f: :callum:_ )\n&lt; <@U5TQU3WQ7> &gt; he is dead\n&lt; <@BOT BOT BOT> &gt; i wish i was dead','U5TQU3WQ7','2018-02-15 16:09:14');
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
 /*!40101 SET character_set_client = utf8 */;
 CREATE TABLE `settings` (
