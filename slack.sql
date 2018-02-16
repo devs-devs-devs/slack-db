@@ -216,7 +216,7 @@ CREATE TABLE `triggers` (
   `added` datetime NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
   `user` varchar(32) NOT NULL DEFAULT '',
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=80 DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB AUTO_INCREMENT=81 DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
 INSERT INTO `triggers` VALUES (1,'<@u87u6es12>','fuck off you mug','2017-12-13 14:53:14','U5TQU3WQ7');
 INSERT INTO `triggers` VALUES (2,'<@u87u6es12>','are you mugging me off in front of my friends?','2017-12-13 14:58:49','U5TQU3WQ7');
@@ -296,3 +296,4 @@ INSERT INTO `triggers` VALUES (76,'work','I\'m not having much luck with jobs la
 INSERT INTO `triggers` VALUES (77,'joke','<@U5T0J1UHY> what’s orange and sounds like a parrot? A carrot.','2018-02-16 09:27:56','U5T42GE81');
 INSERT INTO `triggers` VALUES (78,'enrique',':enrique: &lt;( about dat line… )','2018-02-16 11:58:30','U5SUYBLEP');
 INSERT INTO `triggers` VALUES (79,'triggered','<https://i.imgur.com/VdoWVmU.gif>','2018-02-16 12:19:39','U5T42GE81');
+INSERT INTO `triggers` VALUES (80,'triggered',':triggered-af::triggered-af::triggered-af::triggered-af::triggered-af::triggered-af::triggered-af::triggered-af-right::triggered-af-right::triggered-af-right::triggered-af-right::triggered-af-right::triggered-af-right::triggered-af-right:','2018-02-16 12:25:57','U5TQU3WQ7');
