@@ -204,7 +204,7 @@ CREATE TABLE `settings` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
 INSERT INTO `settings` VALUES ('triggerChanceToSpeak','\"10\"','Out of 100, the chance that the bot can auto reply to triggers automatically straight after the timer has been reset.');
-INSERT INTO `settings` VALUES ('triggerReplyInterval','\"180000\"','How much time has to elapse before the bot has a 100% chance of triggering');
+INSERT INTO `settings` VALUES ('triggerReplyInterval','\"360000\"','How much time has to elapse before the bot has a 100% chance of triggering');
 INSERT INTO `settings` VALUES ('updateChannelsInterval','\"300000\"','How often to request the channels list from the Slack API');
 INSERT INTO `settings` VALUES ('updateUsersInterval','\"300000\"','How often to request the users list from the Slack API');
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
@@ -216,7 +216,7 @@ CREATE TABLE `triggers` (
   `added` datetime NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
   `user` varchar(32) NOT NULL DEFAULT '',
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=78 DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB AUTO_INCREMENT=79 DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
 INSERT INTO `triggers` VALUES (1,'<@u87u6es12>','fuck off you mug','2017-12-13 14:53:14','U5TQU3WQ7');
 INSERT INTO `triggers` VALUES (2,'<@u87u6es12>','are you mugging me off in front of my friends?','2017-12-13 14:58:49','U5TQU3WQ7');
@@ -294,3 +294,4 @@ INSERT INTO `triggers` VALUES (74,'alex','*unsheathes*','2018-02-15 16:36:31','U
 INSERT INTO `triggers` VALUES (75,'alex',':alexgaudiosi: &lt;( I\'m a game hoarder :fedora: )','2018-02-15 16:37:32','U5T0J1UHY');
 INSERT INTO `triggers` VALUES (76,'work','I\'m not having much luck with jobs lately: I couldn\'t concentrate in the orange juice factory, wasn\'t suited to be a tailor; couldn\'t cut it as barber, didn\'t have the patience to be a doctor; didn\'t fit in the shoe factory; pool maintenance was too draining, I sucked at the lollipop shop, I was too cocky at the Ann Summers shop, I found out that I can\'t bet on a stable income at the bookies, I couldn\'t see any future as a historian, I was shit at waste refuse management and I was in two minds about becoming a psychotherapist.','2018-02-16 08:27:21','U5T42GE81');
 INSERT INTO `triggers` VALUES (77,'joke','<@U5T0J1UHY> what’s orange and sounds like a parrot? A carrot.','2018-02-16 09:27:56','U5T42GE81');
+INSERT INTO `triggers` VALUES (78,'enrique',':enrique: &lt;( about dat line… )','2018-02-16 11:58:30','U5SUYBLEP');
