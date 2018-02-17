@@ -219,7 +219,7 @@ CREATE TABLE `triggers` (
   `added` datetime NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
   `user` varchar(32) NOT NULL DEFAULT '',
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=84 DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB AUTO_INCREMENT=85 DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
 INSERT INTO `triggers` VALUES (1,'<@u87u6es12>','fuck off you mug','2017-12-13 14:53:14','U5TQU3WQ7');
 INSERT INTO `triggers` VALUES (2,'<@u87u6es12>','are you mugging me off in front of my friends?','2017-12-13 14:58:49','U5TQU3WQ7');
@@ -303,3 +303,4 @@ INSERT INTO `triggers` VALUES (80,'triggered',':triggered-af::triggered-af::trig
 INSERT INTO `triggers` VALUES (81,'saab',':baguette_bread: :croissant: :waving_white_flag: :flag-fr:','2018-02-16 12:30:56','U5T0J1UHY');
 INSERT INTO `triggers` VALUES (82,'<@u5tqu3wq7>',':ash: &lt;( :wank: i cant go out tonight i have brunch tomorrow :wank: )','2018-02-16 15:10:55','U5TQU3WQ7');
 INSERT INTO `triggers` VALUES (83,'troll','Meh, it’s literally just troll after troll, and trolling me as well. I’m not really interested in that in all honesty, so if ever this has some serious conversation invite me back','2018-02-16 16:15:29','U5SUYBLEP');
+INSERT INTO `triggers` VALUES (84,'<@u5t0j1uhy>','<https://s3media.247sports.com/Uploads/Assets/13/710/710013.gif>','2018-02-17 16:54:42','U5T42GE81');
